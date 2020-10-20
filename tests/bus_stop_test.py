@@ -2,10 +2,10 @@ import unittest
 from src.bus_stop import BusStop
 from src.person import Person
 
-class TestBusStop(unittest.TestCase):
-    def setUp(self):
-        self.bus_stop = BusStop("Waverly Station")
-        self.person = Person("Guido van Rossum", 64)
+# class TestBusStop(unittest.TestCase):
+#     def setUp(self):
+#         self.bus_stop = BusStop("Waverly Station")
+#         self.person = Person("Guido van Rossum", 64)
 
     @unittest.skip("Delete this line to run the test")
     def test_bus_stop_has_name(self):
