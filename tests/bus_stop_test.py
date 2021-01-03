@@ -5,7 +5,7 @@ from src.person import Person
 class TestBusStop(unittest.TestCase):
     def setUp(self):
         self.bus_stop = BusStop("Waverly Station")
-        self.person = Person("Guido van Rossum", 64)
+        self.person = Person("Guido van Rossum", 64, "East Kilbride")
 
     def test_bus_stop_has_name(self):
         self.assertEqual("Waverly Station", self.bus_stop.name)
